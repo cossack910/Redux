@@ -20,3 +20,15 @@ docker exec -it reactredux npm run build
 ```
 docker-compose run --rm reactredux npm create vite@latest .
 ```
+
+react-redux
+
+```
+docker exec -it reactredux npm install react-redux
+```
+
+redux-toolkit
+
+```
+docker exec -it reactredux npm install @reduxjs/toolkit
+```
